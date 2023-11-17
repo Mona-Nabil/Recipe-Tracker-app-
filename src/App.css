@@ -11,6 +11,7 @@ label {
 
 header {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  background-color: #ABB2B9;
 }
 
 /* typography */
@@ -54,7 +55,7 @@ table {
   max-height: 100px;
   overflow-y: auto;
   text-overflow: ellipsis;
-  scrollbar-width: thin;
+  scrollbar-width: thin
 }
 
 /* Column Size for thead */
@@ -79,7 +80,7 @@ h1 {
 }
 
 .table-primary tbody tr:nth-child(odd) {
-  background-color: #fff0c7;
+  background-color: #F2F3F4;
 }
 
 .table-primary tbody tr td img {

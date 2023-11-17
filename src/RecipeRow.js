@@ -1,9 +1,7 @@
 import React from "react";
 
 function RecipeRow({ singleRecipe, allRecipes, setRecipes }) {
-  // console.log(singleRecipe);
-  // console.log(allRecipes);
-  // console.log(setRecipes);
+
   const deleteRecipe = (e) => {
     e.preventDefault();
 
@@ -27,9 +25,9 @@ function RecipeRow({ singleRecipe, allRecipes, setRecipes }) {
       <td className="content_td">
         <p>{singleRecipe.preparation}</p>
       </td>
-      <td>
+      <td className="content_td">
         <button
-          class="btn btn-danger"
+          className="btn btn-danger"
           type="delete"
           name="delete"
           onClick={deleteRecipe}
