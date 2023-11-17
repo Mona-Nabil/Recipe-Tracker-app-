@@ -10,14 +10,15 @@ label {
 }
 
 header {
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-  background-color: #ABB2B9;
+  box-shadow: 0 0 60px rgba(0, 0, 0, 0.1);
+  background-color: #abb2b9;
+  padding: 2%;
 }
 
 /* typography */
 
 html {
-  font-family: "helvetica neue", sans-serif;
+  font-family: sans-serif;
 }
 
 thead th,
@@ -26,6 +27,7 @@ tfoot th {
 }
 
 th {
+  text-align: center;
   letter-spacing: 2px;
   padding: 10px;
   width: 10%;
@@ -55,7 +57,7 @@ table {
   max-height: 100px;
   overflow-y: auto;
   text-overflow: ellipsis;
-  scrollbar-width: thin
+  scrollbar-width: thin;
 }
 
 /* Column Size for thead */
@@ -80,7 +82,7 @@ h1 {
 }
 
 .table-primary tbody tr:nth-child(odd) {
-  background-color: #F2F3F4;
+  background-color: #f2f3f4;
 }
 
 .table-primary tbody tr td img {
